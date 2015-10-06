@@ -7,7 +7,7 @@
         <!--Circle-->
         <scene sceneID="Xhl-VS-Phi">
             <objects>
-                <viewController id="YG4-PR-DMy" customClass="squareTabViewController" sceneMemberID="viewController">
+                <viewController id="YG4-PR-DMy" customClass="circleTabViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ahe-qc-9rX"/>
                         <viewControllerLayoutGuide type="bottom" id="erI-DK-h02"/>
@@ -26,7 +26,7 @@
         <!--Square-->
         <scene sceneID="fKk-v7-VpG">
             <objects>
-                <viewController id="dtl-y1-iE8" customClass="circleTabViewController" sceneMemberID="viewController">
+                <viewController id="dtl-y1-iE8" customClass="squareTabViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nHf-wK-BVC"/>
                         <viewControllerLayoutGuide type="bottom" id="JT7-oH-Yhd"/>
@@ -38,13 +38,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled3.png" translatesAutoresizingMaskIntoConstraints="NO" id="0NG-Fs-G3F">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="27" y="28" width="250" height="250"/>
+                                    <rect key="frame" x="40" y="117" width="250" height="250"/>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitledxc.png" translatesAutoresizingMaskIntoConstraints="NO" id="UII-As-iWj">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="285" y="28" width="40" height="250"/>
+                                    <rect key="frame" x="298" y="117" width="40" height="250"/>
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUQ-8W-ZJq">
@@ -53,15 +53,36 @@
                                 <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="333" y="142" width="15" height="21"/>
+                                    <rect key="frame" x="346" y="231" width="15" height="21"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09E-6V-VUc">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="81" y="209" width="168" height="66"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyH-JF-Ee6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="GO">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="315" y="430" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="squareButtonTapped:" destination="dtl-y1-iE8" eventType="touchUpInside" id="M7Q-Xw-rUB"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Value for 'a'" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3j7-wE-bS0">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="75" y="324" width="250" height="30"/>
+                                    <rect key="frame" x="40" y="430" width="250" height="30"/>
                                 </variation>
                             </textField>
                         </subviews>
@@ -71,6 +92,8 @@
                                 <exclude reference="0NG-Fs-G3F"/>
                                 <exclude reference="UII-As-iWj"/>
                                 <exclude reference="sUQ-8W-ZJq"/>
+                                <exclude reference="09E-6V-VUc"/>
+                                <exclude reference="oyH-JF-Ee6"/>
                                 <exclude reference="3j7-wE-bS0"/>
                             </mask>
                         </variation>
@@ -79,11 +102,17 @@
                                 <include reference="0NG-Fs-G3F"/>
                                 <include reference="UII-As-iWj"/>
                                 <include reference="sUQ-8W-ZJq"/>
+                                <include reference="09E-6V-VUc"/>
+                                <include reference="oyH-JF-Ee6"/>
                                 <include reference="3j7-wE-bS0"/>
                             </mask>
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Square" image="Square" id="all-93-kHC"/>
+                    <connections>
+                        <outlet property="areaDisplayTextField" destination="09E-6V-VUc" id="HFW-0b-Ttk"/>
+                        <outlet property="squareTextField" destination="3j7-wE-bS0" id="zQD-fO-POB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="syr-Tu-xTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

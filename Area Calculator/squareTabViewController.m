@@ -7,16 +7,41 @@
 //
 
 #import "squareTabViewController.h"
+#import "Square.h"
 
 @interface squareTabViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *squareTextField;
+@property (weak, nonatomic) IBOutlet UILabel *areaDisplayTextField;
 
 @end
 
-@implementation squareTabViewController
+@implementation squareTabViewController{
+    
+    NSNumberFormatter *formatter;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    formatter = [NSNumberFormatter new];
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
     // Do any additional setup after loading the view.
+}
+
+- (IBAction)squareButtonTapped:(id)sender {
+    
+    double sideDouble = [self.squareTextField.text floatValue ];
+    
+    NSNumber *squareSide = [ NSNumber numberWithFloat:sideDouble ];
+    
+    Square *sqr = [[Square alloc] init];
+    
+    [ sqr calculateShapeArea:squareSide ];
+    
+    
+    
+    self.areaDisplayTextField.text = [ NSString stringWithFormat:@"%@ sq units",[formatter stringFromNumber:sqr.area] ];
+    
 }
 
 - (void)didReceiveMemoryWarning {
