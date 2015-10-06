@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="en6-R1-dfF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Circle-->
+        <scene sceneID="Xhl-VS-Phi">
+            <objects>
+                <viewController id="YG4-PR-DMy" customClass="squareTabViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ahe-qc-9rX"/>
+                        <viewControllerLayoutGuide type="bottom" id="erI-DK-h02"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="re0-ao-2cM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Circle" image="Circle" id="9wy-XF-Iey"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MIU-oQ-bVc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="550" y="396"/>
+        </scene>
+        <!--Square-->
+        <scene sceneID="fKk-v7-VpG">
+            <objects>
+                <viewController id="dtl-y1-iE8" customClass="circleTabViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nHf-wK-BVC"/>
+                        <viewControllerLayoutGuide type="bottom" id="JT7-oH-Yhd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lNQ-bZ-QJj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled3.png" translatesAutoresizingMaskIntoConstraints="NO" id="0NG-Fs-G3F">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="28" width="250" height="250"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitledxc.png" translatesAutoresizingMaskIntoConstraints="NO" id="UII-As-iWj">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="285" y="28" width="40" height="250"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUQ-8W-ZJq">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="333" y="142" width="15" height="21"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Value for 'a'" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3j7-wE-bS0">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="75" y="324" width="250" height="30"/>
+                                </variation>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="0NG-Fs-G3F"/>
+                                <exclude reference="UII-As-iWj"/>
+                                <exclude reference="sUQ-8W-ZJq"/>
+                                <exclude reference="3j7-wE-bS0"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="0NG-Fs-G3F"/>
+                                <include reference="UII-As-iWj"/>
+                                <include reference="sUQ-8W-ZJq"/>
+                                <include reference="3j7-wE-bS0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Square" image="Square" id="all-93-kHC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="syr-Tu-xTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="549" y="-266"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="udy-t9-UJG">
+            <objects>
+                <tabBarController id="en6-R1-dfF" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="MnT-gU-aBf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dtl-y1-iE8" kind="relationship" relationship="viewControllers" id="4tz-yH-FXf"/>
+                        <segue destination="YG4-PR-DMy" kind="relationship" relationship="viewControllers" id="82s-0y-PSA"/>
+                        <segue destination="i9K-kl-Wl6" kind="relationship" relationship="viewControllers" id="Gr5-dL-yoB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iIN-a1-apc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-494" y="177"/>
+        </scene>
+        <!--Triangle-->
+        <scene sceneID="LSm-H5-MmO">
+            <objects>
+                <viewController id="i9K-kl-Wl6" customClass="triangleTabViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i2n-ba-9F7"/>
+                        <viewControllerLayoutGuide type="bottom" id="pZf-nH-tVp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B29-C1-O8N">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Triangle" image="Triangle" id="IFZ-UH-LRz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezZ-It-Pgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-452" y="1070"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Circle" width="30" height="30"/>
+        <image name="Square" width="30" height="31"/>
+        <image name="Triangle" width="30" height="30"/>
+        <image name="Untitled3.png" width="490" height="490"/>
+        <image name="Untitledxc.png" width="65" height="491"/>
+    </resources>
+</document>

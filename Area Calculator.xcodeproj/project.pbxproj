@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110F3A2F1BB90889003521FD /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F3A2E1BB90889003521FD /* Square.m */; };
+		110F3A321BB90892003521FD /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F3A311BB90892003521FD /* Triangle.m */; };
+		110F3A351BB9089A003521FD /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F3A341BB9089A003521FD /* Circle.m */; };
+		110F3A391BB911B8003521FD /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F3A381BB911B8003521FD /* Shape.m */; };
+		111B20A51BB2C0B100CB7147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B20A41BB2C0B100CB7147 /* main.m */; };
+		111B20A81BB2C0B100CB7147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B20A71BB2C0B100CB7147 /* AppDelegate.m */; };
+		111B20AE1BB2C0B100CB7147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111B20AC1BB2C0B100CB7147 /* Main.storyboard */; };
+		111B20B01BB2C0B100CB7147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111B20AF1BB2C0B100CB7147 /* Images.xcassets */; };
+		111B20B31BB2C0B100CB7147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111B20B11BB2C0B100CB7147 /* LaunchScreen.xib */; };
+		111B20BF1BB2C0B100CB7147 /* Area_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B20BE1BB2C0B100CB7147 /* Area_CalculatorTests.m */; };
+		11E8DF021BC3B60400B9ABDE /* circleTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8DF011BC3B60400B9ABDE /* circleTabViewController.m */; };
+		11E8DF051BC3B63200B9ABDE /* squareTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8DF041BC3B63200B9ABDE /* squareTabViewController.m */; };
+		11E8DF081BC3C84800B9ABDE /* triangleTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8DF071BC3C84800B9ABDE /* triangleTabViewController.m */; };
+		11E8DF181BC3D19100B9ABDE /* squareTabIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF151BC3D19100B9ABDE /* squareTabIcon.png */; };
+		11E8DF191BC3D19100B9ABDE /* squareTabIconx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF161BC3D19100B9ABDE /* squareTabIconx2.png */; };
+		11E8DF1C1BC3D28500B9ABDE /* squareTabIconx3.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF1B1BC3D28500B9ABDE /* squareTabIconx3.png */; };
+		11E8DF2E1BC3D63900B9ABDE /* triangleTabIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF2B1BC3D63900B9ABDE /* triangleTabIcon.png */; };
+		11E8DF2F1BC3D63900B9ABDE /* triangleTabIconx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF2C1BC3D63900B9ABDE /* triangleTabIconx2.png */; };
+		11E8DF301BC3D63900B9ABDE /* triangleTabIconx3.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF2D1BC3D63900B9ABDE /* triangleTabIconx3.png */; };
+		11E8DF341BC3D72F00B9ABDE /* circleTabIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF311BC3D72F00B9ABDE /* circleTabIcon.png */; };
+		11E8DF351BC3D72F00B9ABDE /* circleTabIconx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF321BC3D72F00B9ABDE /* circleTabIconx2.png */; };
+		11E8DF361BC3D72F00B9ABDE /* circleTabIconx3.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF331BC3D72F00B9ABDE /* circleTabIconx3.png */; };
+		11E8DF391BC3DB7400B9ABDE /* Untitled3.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF371BC3DB7400B9ABDE /* Untitled3.png */; };
+		11E8DF3C1BC3E3FA00B9ABDE /* Untitledxc.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8DF3B1BC3E3FA00B9ABDE /* Untitledxc.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111B20B91BB2C0B100CB7147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111B20971BB2C0B100CB7147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111B209E1BB2C0B100CB7147;
+			remoteInfo = "Area Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110F3A2D1BB90889003521FD /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		110F3A2E1BB90889003521FD /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		110F3A301BB90892003521FD /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		110F3A311BB90892003521FD /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		110F3A331BB9089A003521FD /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		110F3A341BB9089A003521FD /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		110F3A371BB911B8003521FD /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		110F3A381BB911B8003521FD /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		111B209F1BB2C0B100CB7147 /* Area Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Area Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		111B20A31BB2C0B100CB7147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111B20A41BB2C0B100CB7147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		111B20A61BB2C0B100CB7147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		111B20A71BB2C0B100CB7147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		111B20AD1BB2C0B100CB7147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		111B20AF1BB2C0B100CB7147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		111B20B21BB2C0B100CB7147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		111B20B81BB2C0B100CB7147 /* Area CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Area CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		111B20BD1BB2C0B100CB7147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111B20BE1BB2C0B100CB7147 /* Area_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Area_CalculatorTests.m; sourceTree = "<group>"; };
+		11E8DF001BC3B60400B9ABDE /* circleTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circleTabViewController.h; sourceTree = "<group>"; };
+		11E8DF011BC3B60400B9ABDE /* circleTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = circleTabViewController.m; sourceTree = "<group>"; };
+		11E8DF031BC3B63200B9ABDE /* squareTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = squareTabViewController.h; sourceTree = "<group>"; };
+		11E8DF041BC3B63200B9ABDE /* squareTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = squareTabViewController.m; sourceTree = "<group>"; };
+		11E8DF061BC3C84800B9ABDE /* triangleTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triangleTabViewController.h; sourceTree = "<group>"; };
+		11E8DF071BC3C84800B9ABDE /* triangleTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triangleTabViewController.m; sourceTree = "<group>"; };
+		11E8DF151BC3D19100B9ABDE /* squareTabIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squareTabIcon.png; sourceTree = "<group>"; };
+		11E8DF161BC3D19100B9ABDE /* squareTabIconx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squareTabIconx2.png; sourceTree = "<group>"; };
+		11E8DF1B1BC3D28500B9ABDE /* squareTabIconx3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squareTabIconx3.png; sourceTree = "<group>"; };
+		11E8DF2B1BC3D63900B9ABDE /* triangleTabIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleTabIcon.png; sourceTree = "<group>"; };
+		11E8DF2C1BC3D63900B9ABDE /* triangleTabIconx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleTabIconx2.png; sourceTree = "<group>"; };
+		11E8DF2D1BC3D63900B9ABDE /* triangleTabIconx3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleTabIconx3.png; sourceTree = "<group>"; };
+		11E8DF311BC3D72F00B9ABDE /* circleTabIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleTabIcon.png; sourceTree = "<group>"; };
+		11E8DF321BC3D72F00B9ABDE /* circleTabIconx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleTabIconx2.png; sourceTree = "<group>"; };
+		11E8DF331BC3D72F00B9ABDE /* circleTabIconx3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleTabIconx3.png; sourceTree = "<group>"; };
+		11E8DF371BC3DB7400B9ABDE /* Untitled3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled3.png; sourceTree = "<group>"; };
+		11E8DF3B1BC3E3FA00B9ABDE /* Untitledxc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitledxc.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111B209C1BB2C0B100CB7147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111B20B51BB2C0B100CB7147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111B20961BB2C0B100CB7147 = {
+			isa = PBXGroup;
+			children = (
+				111B20A11BB2C0B100CB7147 /* Area Calculator */,
+				111B20BB1BB2C0B100CB7147 /* Area CalculatorTests */,
+				111B20A01BB2C0B100CB7147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		111B20A01BB2C0B100CB7147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111B209F1BB2C0B100CB7147 /* Area Calculator.app */,
+				111B20B81BB2C0B100CB7147 /* Area CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		111B20A11BB2C0B100CB7147 /* Area Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				11E8DF151BC3D19100B9ABDE /* squareTabIcon.png */,
+				11E8DF161BC3D19100B9ABDE /* squareTabIconx2.png */,
+				11E8DF1B1BC3D28500B9ABDE /* squareTabIconx3.png */,
+				11E8DF2B1BC3D63900B9ABDE /* triangleTabIcon.png */,
+				11E8DF2C1BC3D63900B9ABDE /* triangleTabIconx2.png */,
+				11E8DF2D1BC3D63900B9ABDE /* triangleTabIconx3.png */,
+				11E8DF311BC3D72F00B9ABDE /* circleTabIcon.png */,
+				11E8DF321BC3D72F00B9ABDE /* circleTabIconx2.png */,
+				11E8DF331BC3D72F00B9ABDE /* circleTabIconx3.png */,
+				11E8DF371BC3DB7400B9ABDE /* Untitled3.png */,
+				11E8DF3B1BC3E3FA00B9ABDE /* Untitledxc.png */,
+				111B20A61BB2C0B100CB7147 /* AppDelegate.h */,
+				111B20A71BB2C0B100CB7147 /* AppDelegate.m */,
+				111B20AC1BB2C0B100CB7147 /* Main.storyboard */,
+				11E8DF001BC3B60400B9ABDE /* circleTabViewController.h */,
+				11E8DF011BC3B60400B9ABDE /* circleTabViewController.m */,
+				11E8DF061BC3C84800B9ABDE /* triangleTabViewController.h */,
+				11E8DF071BC3C84800B9ABDE /* triangleTabViewController.m */,
+				111B20AF1BB2C0B100CB7147 /* Images.xcassets */,
+				111B20B11BB2C0B100CB7147 /* LaunchScreen.xib */,
+				111B20A21BB2C0B100CB7147 /* Supporting Files */,
+				11E8DF031BC3B63200B9ABDE /* squareTabViewController.h */,
+				11E8DF041BC3B63200B9ABDE /* squareTabViewController.m */,
+			);
+			path = "Area Calculator";
+			sourceTree = "<group>";
+		};
+		111B20A21BB2C0B100CB7147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				111B20A31BB2C0B100CB7147 /* Info.plist */,
+				111B20A41BB2C0B100CB7147 /* main.m */,
+				110F3A2D1BB90889003521FD /* Square.h */,
+				110F3A2E1BB90889003521FD /* Square.m */,
+				110F3A301BB90892003521FD /* Triangle.h */,
+				110F3A311BB90892003521FD /* Triangle.m */,
+				110F3A331BB9089A003521FD /* Circle.h */,
+				110F3A341BB9089A003521FD /* Circle.m */,
+				110F3A371BB911B8003521FD /* Shape.h */,
+				110F3A381BB911B8003521FD /* Shape.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		111B20BB1BB2C0B100CB7147 /* Area CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				111B20BE1BB2C0B100CB7147 /* Area_CalculatorTests.m */,
+				111B20BC1BB2C0B100CB7147 /* Supporting Files */,
+			);
+			path = "Area CalculatorTests";
+			sourceTree = "<group>";
+		};
+		111B20BC1BB2C0B100CB7147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				111B20BD1BB2C0B100CB7147 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111B209E1BB2C0B100CB7147 /* Area Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111B20C21BB2C0B100CB7147 /* Build configuration list for PBXNativeTarget "Area Calculator" */;
+			buildPhases = (
+				111B209B1BB2C0B100CB7147 /* Sources */,
+				111B209C1BB2C0B100CB7147 /* Frameworks */,
+				111B209D1BB2C0B100CB7147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Area Calculator";
+			productName = "Area Calculator";
+			productReference = 111B209F1BB2C0B100CB7147 /* Area Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		111B20B71BB2C0B100CB7147 /* Area CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111B20C51BB2C0B100CB7147 /* Build configuration list for PBXNativeTarget "Area CalculatorTests" */;
+			buildPhases = (
+				111B20B41BB2C0B100CB7147 /* Sources */,
+				111B20B51BB2C0B100CB7147 /* Frameworks */,
+				111B20B61BB2C0B100CB7147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111B20BA1BB2C0B100CB7147 /* PBXTargetDependency */,
+			);
+			name = "Area CalculatorTests";
+			productName = "Area CalculatorTests";
+			productReference = 111B20B81BB2C0B100CB7147 /* Area CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111B20971BB2C0B100CB7147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Suman Roy";
+				TargetAttributes = {
+					111B209E1BB2C0B100CB7147 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					111B20B71BB2C0B100CB7147 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 111B209E1BB2C0B100CB7147;
+					};
+				};
+			};
+			buildConfigurationList = 111B209A1BB2C0B100CB7147 /* Build configuration list for PBXProject "Area Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 111B20961BB2C0B100CB7147;
+			productRefGroup = 111B20A01BB2C0B100CB7147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				111B209E1BB2C0B100CB7147 /* Area Calculator */,
+				111B20B71BB2C0B100CB7147 /* Area CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111B209D1BB2C0B100CB7147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E8DF1C1BC3D28500B9ABDE /* squareTabIconx3.png in Resources */,
+				11E8DF3C1BC3E3FA00B9ABDE /* Untitledxc.png in Resources */,
+				11E8DF2F1BC3D63900B9ABDE /* triangleTabIconx2.png in Resources */,
+				11E8DF341BC3D72F00B9ABDE /* circleTabIcon.png in Resources */,
+				111B20AE1BB2C0B100CB7147 /* Main.storyboard in Resources */,
+				11E8DF351BC3D72F00B9ABDE /* circleTabIconx2.png in Resources */,
+				11E8DF301BC3D63900B9ABDE /* triangleTabIconx3.png in Resources */,
+				11E8DF181BC3D19100B9ABDE /* squareTabIcon.png in Resources */,
+				11E8DF361BC3D72F00B9ABDE /* circleTabIconx3.png in Resources */,
+				11E8DF2E1BC3D63900B9ABDE /* triangleTabIcon.png in Resources */,
+				111B20B31BB2C0B100CB7147 /* LaunchScreen.xib in Resources */,
+				11E8DF391BC3DB7400B9ABDE /* Untitled3.png in Resources */,
+				111B20B01BB2C0B100CB7147 /* Images.xcassets in Resources */,
+				11E8DF191BC3D19100B9ABDE /* squareTabIconx2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111B20B61BB2C0B100CB7147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111B209B1BB2C0B100CB7147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F3A351BB9089A003521FD /* Circle.m in Sources */,
+				111B20A81BB2C0B100CB7147 /* AppDelegate.m in Sources */,
+				11E8DF051BC3B63200B9ABDE /* squareTabViewController.m in Sources */,
+				110F3A2F1BB90889003521FD /* Square.m in Sources */,
+				111B20A51BB2C0B100CB7147 /* main.m in Sources */,
+				110F3A321BB90892003521FD /* Triangle.m in Sources */,
+				110F3A391BB911B8003521FD /* Shape.m in Sources */,
+				11E8DF021BC3B60400B9ABDE /* circleTabViewController.m in Sources */,
+				11E8DF081BC3C84800B9ABDE /* triangleTabViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111B20B41BB2C0B100CB7147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111B20BF1BB2C0B100CB7147 /* Area_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111B20BA1BB2C0B100CB7147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111B209E1BB2C0B100CB7147 /* Area Calculator */;
+			targetProxy = 111B20B91BB2C0B100CB7147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		111B20AC1BB2C0B100CB7147 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111B20AD1BB2C0B100CB7147 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		111B20B11BB2C0B100CB7147 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111B20B21BB2C0B100CB7147 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		111B20C01BB2C0B100CB7147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		111B20C11BB2C0B100CB7147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		111B20C31BB2C0B100CB7147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Area Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		111B20C41BB2C0B100CB7147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Area Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		111B20C61BB2C0B100CB7147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Area CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Area Calculator.app/Area Calculator";
+			};
+			name = Debug;
+		};
+		111B20C71BB2C0B100CB7147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Area CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Area Calculator.app/Area Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111B209A1BB2C0B100CB7147 /* Build configuration list for PBXProject "Area Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111B20C01BB2C0B100CB7147 /* Debug */,
+				111B20C11BB2C0B100CB7147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111B20C21BB2C0B100CB7147 /* Build configuration list for PBXNativeTarget "Area Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111B20C31BB2C0B100CB7147 /* Debug */,
+				111B20C41BB2C0B100CB7147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111B20C51BB2C0B100CB7147 /* Build configuration list for PBXNativeTarget "Area CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111B20C61BB2C0B100CB7147 /* Debug */,
+				111B20C71BB2C0B100CB7147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111B20971BB2C0B100CB7147 /* Project object */;
+}
