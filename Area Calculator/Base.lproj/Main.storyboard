@@ -91,6 +91,7 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="0NG-Fs-G3F"/>
@@ -111,6 +112,9 @@
                                 <include reference="3j7-wE-bS0"/>
                             </mask>
                         </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="W2c-wi-Ari" appends="YES" id="K0s-rA-Hfl"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Square" image="Square" id="all-93-kHC"/>
                     <connections>
@@ -119,6 +123,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="syr-Tu-xTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="W2c-wi-Ari"/>
             </objects>
             <point key="canvasLocation" x="549" y="-266"/>
         </scene>
