@@ -8,23 +8,32 @@
 
 #import "squareTabViewController.h"
 #import "Square.h"
+#import "Animation.h"
 
 @interface squareTabViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *squareTextField;
 @property (weak, nonatomic) IBOutlet UILabel *areaDisplayTextField;
+
+
 
 @end
 
 @implementation squareTabViewController{
     
     NSNumberFormatter *formatter;
+    
 }
+
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     formatter = [NSNumberFormatter new];
     [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    
+    //_squareTextField.delegate = self;
     // Do any additional setup after loading the view.
 }
 
@@ -58,5 +67,16 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)textFieldEditBegin:(id)sender {
+    
+    [ Animation textFieldDidBeginEditing: self.squareTextField inView:self];
+}
+
+- (IBAction)textFieldEditEnd:(id)sender {
+    
+    [ Animation textFieldDidEndEditing: self.squareTextField inView:self];
+}
+
 
 @end

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>7624BC43-9A5D-4FD8-87E7-B9908AB7490F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Area Calculator</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>586277A4E3B50FA6C6013AD3393B5FAB6FA2F8DE</key>
 		<string>https://github.com/sumanroy666/Area-Calculator.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Area Calculator.xcodeproj</string>
+	<string>Area Calculator.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>586277A4E3B50FA6C6013AD3393B5FAB6FA2F8DE</key>

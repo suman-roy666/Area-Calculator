@@ -16,19 +16,7 @@ int main(int argc, char * argv[]) {
     
     @autoreleasepool {
         
-        
-//        NSNumber* area = [[NSNumber alloc] init];
-//        
-//        Square *sqr1 = [[Square alloc] init];
-//        
-//        NSNumber *squareLength = [ NSNumber numberWithDouble: 213.65 ];
-//        
-//        area = [sqr1 calculateShapeArea: squareLength ];
-//        
-//        NSLog(@"\n\n Area of Square: <side> %@ units * <side> %@ units = %@ units^2 \n\n",squareLength, squareLength, area);
-//        
-//        
-//        
+     
 //        Circle *crl = [[ Circle alloc] init];
 //        
 //        NSNumber *circleRadius = [ NSNumber numberWithDouble: 213.65 ];

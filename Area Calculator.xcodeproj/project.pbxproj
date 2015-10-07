@@ -17,6 +17,7 @@
 		111B20B01BB2C0B100CB7147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111B20AF1BB2C0B100CB7147 /* Images.xcassets */; };
 		111B20B31BB2C0B100CB7147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111B20B11BB2C0B100CB7147 /* LaunchScreen.xib */; };
 		111B20BF1BB2C0B100CB7147 /* Area_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B20BE1BB2C0B100CB7147 /* Area_CalculatorTests.m */; };
+		1150CB3F1BC4E60D00BA9DB0 /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1150CB3E1BC4E60D00BA9DB0 /* Animation.m */; };
 		11E8DF021BC3B60400B9ABDE /* circleTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8DF011BC3B60400B9ABDE /* circleTabViewController.m */; };
 		11E8DF051BC3B63200B9ABDE /* squareTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8DF041BC3B63200B9ABDE /* squareTabViewController.m */; };
 		11E8DF081BC3C84800B9ABDE /* triangleTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8DF071BC3C84800B9ABDE /* triangleTabViewController.m */; };
@@ -63,6 +64,8 @@
 		111B20B81BB2C0B100CB7147 /* Area CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Area CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		111B20BD1BB2C0B100CB7147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111B20BE1BB2C0B100CB7147 /* Area_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Area_CalculatorTests.m; sourceTree = "<group>"; };
+		1150CB3D1BC4E60D00BA9DB0 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		1150CB3E1BC4E60D00BA9DB0 /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
 		11E8DF001BC3B60400B9ABDE /* circleTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circleTabViewController.h; sourceTree = "<group>"; };
 		11E8DF011BC3B60400B9ABDE /* circleTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = circleTabViewController.m; sourceTree = "<group>"; };
 		11E8DF031BC3B63200B9ABDE /* squareTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = squareTabViewController.h; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				111B20A21BB2C0B100CB7147 /* Supporting Files */,
 				11E8DF031BC3B63200B9ABDE /* squareTabViewController.h */,
 				11E8DF041BC3B63200B9ABDE /* squareTabViewController.m */,
+				1150CB3D1BC4E60D00BA9DB0 /* Animation.h */,
+				1150CB3E1BC4E60D00BA9DB0 /* Animation.m */,
 			);
 			path = "Area Calculator";
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1150CB3F1BC4E60D00BA9DB0 /* Animation.m in Sources */,
 				110F3A351BB9089A003521FD /* Circle.m in Sources */,
 				111B20A81BB2C0B100CB7147 /* AppDelegate.m in Sources */,
 				11E8DF051BC3B63200B9ABDE /* squareTabViewController.m in Sources */,
